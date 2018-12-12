@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "stable"
+before_install:
+  - npm install -g codecov
+cache:
+  directories:
+    - node_modules
+script:
+  - npm test
+  - npm run build
+  - codecov
+deploy:
+  provider: npm
+  email: "yanghc1226@outlook.com"
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
+  skip_cleanup: true
+on:
+  branch: master

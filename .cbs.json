@@ -1,0 +1,6 @@
+{
+  "react": {
+    "script-type": "ts",
+    "entry": "./src/index"
+  }
+}

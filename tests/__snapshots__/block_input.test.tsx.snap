@@ -1,0 +1,577 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+.c3 {
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3::before {
+  content: '';
+  display: none;
+  height: 15px;
+  width: 1px;
+  background: rgb(0,0,0);
+  margin-left: 2px;
+  -webkit-animation: flash 2s infinite both;
+  animation: flash 2s infinite both;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  width: 0;
+  height: 0;
+  opacity: 0.1;
+  position: absolute;
+  z-index: -1;
+}
+
+.c0 {
+  position: relative;
+}
+
+<BlockInput>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bxivhb",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  position: relative;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bxivhb",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+      >
+        <styled.input
+          onBlur={[Function]}
+          onChange={[Function]}
+          type="text"
+          value=""
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-htpNat",
+                  "isStatic": true,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  width: 0;
+  height: 0;
+  opacity: 0.1;
+  position: absolute;
+  z-index: -1;
+",
+                  ],
+                },
+                "displayName": "styled.input",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-htpNat",
+                "target": "input",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          >
+            <input
+              className="c1"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </StyledComponent>
+        </styled.input>
+        <styled.div
+          onClick={[Function]}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+          >
+            <div
+              className="c2"
+              onClick={[Function]}
+            >
+              <styled.span
+                current={false}
+                key="0"
+              >
+                <StyledComponent
+                  current={false}
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  &::before {
+    content: '';
+    display: ",
+                          [Function],
+                          ";
+    height: 15px;
+    width: 1px;
+    background: rgb(0, 0, 0);
+    margin-left: 2px;
+    animation: flash 2s infinite both;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="c3"
+                  />
+                </StyledComponent>
+              </styled.span>
+              <styled.span
+                current={false}
+                key="1"
+              >
+                <StyledComponent
+                  current={false}
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  &::before {
+    content: '';
+    display: ",
+                          [Function],
+                          ";
+    height: 15px;
+    width: 1px;
+    background: rgb(0, 0, 0);
+    margin-left: 2px;
+    animation: flash 2s infinite both;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="c3"
+                  />
+                </StyledComponent>
+              </styled.span>
+              <styled.span
+                current={false}
+                key="2"
+              >
+                <StyledComponent
+                  current={false}
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  &::before {
+    content: '';
+    display: ",
+                          [Function],
+                          ";
+    height: 15px;
+    width: 1px;
+    background: rgb(0, 0, 0);
+    margin-left: 2px;
+    animation: flash 2s infinite both;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="c3"
+                  />
+                </StyledComponent>
+              </styled.span>
+              <styled.span
+                current={false}
+                key="3"
+              >
+                <StyledComponent
+                  current={false}
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  &::before {
+    content: '';
+    display: ",
+                          [Function],
+                          ";
+    height: 15px;
+    width: 1px;
+    background: rgb(0, 0, 0);
+    margin-left: 2px;
+    animation: flash 2s infinite both;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="c3"
+                  />
+                </StyledComponent>
+              </styled.span>
+              <styled.span
+                current={false}
+                key="4"
+              >
+                <StyledComponent
+                  current={false}
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  &::before {
+    content: '';
+    display: ",
+                          [Function],
+                          ";
+    height: 15px;
+    width: 1px;
+    background: rgb(0, 0, 0);
+    margin-left: 2px;
+    animation: flash 2s infinite both;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="c3"
+                  />
+                </StyledComponent>
+              </styled.span>
+              <styled.span
+                current={false}
+                key="5"
+              >
+                <StyledComponent
+                  current={false}
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  width: 35px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  &::before {
+    content: '';
+    display: ",
+                          [Function],
+                          ";
+    height: 15px;
+    width: 1px;
+    background: rgb(0, 0, 0);
+    margin-left: 2px;
+    animation: flash 2s infinite both;
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.span",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <span
+                    className="c3"
+                  />
+                </StyledComponent>
+              </styled.span>
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</BlockInput>
+`;

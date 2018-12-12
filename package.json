@@ -1,0 +1,86 @@
+{
+  "name": "block-input-react",
+  "version": "1.0.0",
+  "description": "a block input for react",
+  "main": "build/lib/index.js",
+  "typings": "build/typings/index.d.ts",
+  "module": "build/module/index.js",
+  "keywords": [
+    "react",
+    "cbs",
+    "mobile",
+    "block input"
+  ],
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.2.0",
+    "react": "^16.6.3",
+    "styled-components": "^4.1.2"
+  },
+  "repository": "https://github.com/Hucy/block-input-react.git",
+  "devDependencies": {
+    "@types/enzyme": "^3.1.15",
+    "@types/jest": "^23.3.10",
+    "@types/react": "^16.7.13",
+    "@types/styled-components": "^4.1.4",
+    "component-build-script": "0.1.0-alpha.6",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "enzyme-to-json": "^3.3.5",
+    "husky": "^1.2.0",
+    "jest": "^23.6.0",
+    "jest-environment-enzyme": "^7.0.1",
+    "jest-enzyme": "^7.0.1",
+    "jest-styled-components": "^6.3.1",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.15.3",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-immutable": "^4.9.1"
+  },
+  "scripts": {
+    "start": "cbs start react",
+    "build": "cbs build react",
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "setupTestFrameworkScriptFile": "jest-enzyme",
+    "testEnvironment": "enzyme",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.tsx"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/"
+    ],
+    "collectCoverage": true
+  },
+  "lint-staged": {
+    "*.{ts,tsx,less}": [
+      "prettier --write --single-quote --trailing-comma all",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
+  },
+  "author": "",
+  "license": "MIT"
+}
